@@ -5,8 +5,8 @@ public class CircleCalculator {
         // calculating circle diameter
         double circleDiameter=2*circleRadius;
         //calculating circle circumference
-        double pi=3.14159;
-        double circleCircumference=2*pi*circleRadius;
+       // double pi=3.14159;
+        double circleCircumference=2*Math.PI*circleRadius;
         //calculating area of the circle
         double circleArea=pi*circleRadius*circleRadius;
         //Print the results
